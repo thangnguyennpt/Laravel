@@ -1,3 +1,0 @@
-<div>
-    cho thuong
-</div>

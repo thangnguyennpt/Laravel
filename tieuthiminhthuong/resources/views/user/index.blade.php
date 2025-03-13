@@ -1,3 +1,0 @@
-<div>
-    Minh Thuong
-</div>
