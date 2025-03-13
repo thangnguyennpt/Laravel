@@ -1,0 +1,127 @@
+/* footer */
+/* Custom styling for footer */
+.footer-list li {
+    margin-bottom: 5px;
+}
+.footer-list a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-list a:hover {
+    color: #ffc107; /* Change color on hover */
+}
+.social-icons a {
+    color: #fff;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
+.btn-info {
+    background-color: #17a2b8; /* Customize button color */
+    border-color: #17a2b8; /* Customize button border color */
+}
+.btn-info:hover {
+    background-color: #138496; /* Change button color on hover */
+    border-color: #138496; /* Change button border color on hover */
+}
+
+/* CSS for Social Icons */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.social-icons .social-icon {
+    animation: blink 3s infinite;
+}
+.social-icons .social-icon:nth-child(2) {
+    animation-delay: 1s;
+}
+.social-icons .social-icon:nth-child(3) {
+    animation-delay: 2s;
+}
+
+
+
+
+/* logo */
+.lg {
+    border-radius: 40px;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+.lg:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+/* header*/
+/* General styling for the header */
+.section_header {
+    background: linear-gradient(to right, #ffffff, #f1f1f1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.lg {
+    border-radius: 5px;
+    max-width: 100px;
+    max-height: 100px;
+    transition: transform 0.3s;
+}
+.lg:hover {
+    transform: scale(1.1);
+}
+.navbar-nav .nav-item .nav-link {
+    transition: color 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+}
+.search-form .form-control {
+    transition: box-shadow 0.3s;
+}
+.search-form .form-control:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+}
+.search-form .btn-outline-primary {
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.search-form .btn-outline-primary:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+.icon-container a {
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+}
+.icon-container a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
+@media (max-width: 767.98px) {
+    .section_header {
+        padding: 1rem;
+    }
+    .search-form {
+        display: none;
+    }
+}
+
+
+/* main menu */
+.card.dropdown-item {
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem 1rem; /* Optional: Adjust padding for better spacing */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+}
+.card.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Optional: Add a subtle background color on hover */
+    color: #007bff; /* Optional: Change text color on hover */
+}
